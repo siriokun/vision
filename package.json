@@ -1,0 +1,16 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "description": "A sample project to capture an image from the camera and perform label detection using Google Cloud Vision API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rio Purnomo",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/vision": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

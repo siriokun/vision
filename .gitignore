@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # Ignore keyfile.json (See README.md)
-*.json
+keyfile.json
