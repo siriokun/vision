@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Cloud Vision API Sample</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #video {
+            display: block;
+            margin: 0 auto;
+        }
+        #captureBtn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Cloud Vision API Sample</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="captureBtn">Capture Image</button>
+    <canvas id="canvas" width="640" height="480" style="display: none;"></canvas>
+    <div id="results"></div>
+</body>
+</html>
